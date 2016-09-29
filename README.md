@@ -24,3 +24,5 @@ This is a simple (and easy to customize) Custom Calendar written in swift.
     }
 ```
 
+
+![alt tag](https://github.com/omerfarukozturk/iOS-Swift-CustomCalendar/blob/master/Simulator%20Screen%20Shot_Calendar.png?raw=true)
