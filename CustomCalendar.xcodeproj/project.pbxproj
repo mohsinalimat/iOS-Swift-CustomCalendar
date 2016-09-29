@@ -12,6 +12,9 @@
 		171855E21D9CFCE000B61E4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171855E01D9CFCE000B61E4F /* Main.storyboard */; };
 		171855E41D9CFCE000B61E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171855E31D9CFCE000B61E4F /* Assets.xcassets */; };
 		171855E71D9CFCE000B61E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171855E51D9CFCE000B61E4F /* LaunchScreen.storyboard */; };
+		171855EF1D9D069E00B61E4F /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171855EE1D9D069E00B61E4F /* CalendarManager.swift */; };
+		171855F11D9D06C400B61E4F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171855F01D9D06C400B61E4F /* Extensions.swift */; };
+		171855F31D9D09ED00B61E4F /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171855F21D9D09ED00B61E4F /* CalendarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		171855E31D9CFCE000B61E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		171855E61D9CFCE000B61E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		171855E81D9CFCE000B61E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		171855EE1D9D069E00B61E4F /* CalendarManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarManager.swift; sourceTree = "<group>"; };
+		171855F01D9D06C400B61E4F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		171855F21D9D09ED00B61E4F /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				171855E31D9CFCE000B61E4F /* Assets.xcassets */,
 				171855E51D9CFCE000B61E4F /* LaunchScreen.storyboard */,
 				171855E81D9CFCE000B61E4F /* Info.plist */,
+				171855EE1D9D069E00B61E4F /* CalendarManager.swift */,
+				171855F01D9D06C400B61E4F /* Extensions.swift */,
+				171855F21D9D09ED00B61E4F /* CalendarViewController.swift */,
 			);
 			path = CustomCalendar;
 			sourceTree = "<group>";
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				171855F31D9D09ED00B61E4F /* CalendarViewController.swift in Sources */,
+				171855EF1D9D069E00B61E4F /* CalendarManager.swift in Sources */,
 				171855DF1D9CFCE000B61E4F /* ViewController.swift in Sources */,
 				171855DD1D9CFCE000B61E4F /* AppDelegate.swift in Sources */,
+				171855F11D9D06C400B61E4F /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +262,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calendar.omerfarukozturk.CustomCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,6 +274,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calendar.omerfarukozturk.CustomCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,6 +300,7 @@
 				171855ED1D9CFCE100B61E4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
